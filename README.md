@@ -1,4 +1,5 @@
 # My-file
+```java
 class Employee {
     String name;
     int id;
@@ -43,3 +44,4 @@ public class EmployeeHierarchy {
         manager.displayInfo(); 
     }
 }
+```
