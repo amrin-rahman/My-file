@@ -12,9 +12,9 @@ class Employee {
     }
 
     void displayInfo() {
-        System.out.println("Employee Name : " + name);
-        System.out.println("Employee ID : " + id);
-        System.out.println("Basic Salary : " + basicSalary);
+        System.out.println(" Name : " + name);
+        System.out.println(" ID : " + id);
+        System.out.println(" Basic Salary : " + basicSalary);
     }
 }
 
@@ -28,7 +28,7 @@ class Manager extends Employee {
     @Override
     void displayInfo() {
         super.displayInfo(); 
-        System.out.println("Department : " + department);
+        System.out.println(" Department : " + department);
     }
 }
 
