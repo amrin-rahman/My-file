@@ -39,7 +39,7 @@ public class EmployeeHierarchy {
         employee.displayInfo();
 
         System.out.println();
-        Employee manager = new Manager("Risan", 100, 50000, "IT");
+        Manager manager = new Manager("Risan", 100, 50000, "IT");
         System.out.println("Manager Details:");
         manager.displayInfo(); 
     }
